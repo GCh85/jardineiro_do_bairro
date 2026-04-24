@@ -27,18 +27,7 @@ Landing page desenvolvida para uma empresa de jardinagem e paisagismo. O objetiv
 ├── style.css          - estilos personalizados (paleta, animações, layout)
 ├── script.js          - lógica JavaScript (formulários, smooth scroll, interações)
 ├── Imagens/           - recursos visuais do projeto
-│   ├── logo.png
-│   ├── construcao.jpg
-│   ├── rockgarden.jpg
-│   ├── rega.jpg
-│   ├── relva.jpg
-│   ├── poda.jpg
-│   ├── canteiro.jpg
-│   ├── AnaMalhoa.jpg
-│   ├── PauloFutre.jpg
-│   ├── PalmiraSilva.jpg
-│   └── fundo.jpg
-└── README.md        - documentação do projeto
+└── README.md          - documentação do projeto
 ```
 
 ---
