@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jardineiro do Bairro - Serviços premium de jardinagem, paisagismo e arquitetura paisagista. Jardins verticais, terrários, espaços verdes modernos.">
+    <title>O Jardineiro do Bairro | Paisagismo & Jardinagem Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="Imagens/logo.png" type="image/png">
+</head>
+<body>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/351912345678" target="_blank" class="whatsapp-float" aria-label="Contacte-nos no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="container">
+            <div class="logo">
+                <img src="Imagens/logo.png" alt="JB Logo">
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testemunhos">Clientes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="btn-cta" onclick="scrollToOrcamento()">Pedir Orçamento</button>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="sec-hero" id="sobre">
+            <div class="hero-bg"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <span class="tagline">Arquitetura Paisagista</span>
+                    <h1>Transforme o Seu Espaço num <br><em>Oásis</em> Verde</h1>
+                    <p class="hero-sub">Criamos espaços verdes exclusivos que refletem o seu estilo de vida. Desde jardins verticais modernos a terrários artísticos, trazemos a natureza para mais perto de si.</p>
+                    <div class="hero-ctas">
+                        <button class="btn-primary" onclick="scrollToOrcamento()">Agendar Consulta Gratuíta</button>
+                        <a href="#portfolio" class="btn-secondary"><i class="fas fa-play"></i> Ver Trabalhos</a>
+                    </div>
+                    <div class="hero-badges">
+                        <div class="badge">
+                            <i class="fas fa-award"></i>
+                            <span>+150 Projetos</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-heart"></i>
+                            <span>4.9/5</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-leaf"></i>
+                            <span>100% Natural</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diferenciais -->
+        <section class="sec-diferenciais">
+            <div class="container">
+                <div class="grid-diferenciais">
+                    <div class="card-diferencial">
+                        <div class="icon-wrap"><i class="fas fa-drafting-compass"></i></div>
+                        <h3>Design Exclusivo</h3>
+                        <p>Cada projeto é pensado à medida, criando soluções únicas que se adaptam ao seu espaço e personalidade.</p>
+                    </div>
+                    <div class="card-diferencial">
+                        <div class="icon-wrap"><i class="fas fa-seedling"></i></div>
+                        <h3>Plantas Selecionadas</h3>
+                        <p>Trabalhamos com espécies raras e plantas de excelência, garantindo durabilidade e beleza.</p>
+                    </div>
+                    <div class="card-diferencial">
+                        <div class="icon-wrap"><i class="fas fa-tools"></i></div>
+                        <h3>Execução Profissional</h3>
+                        <p>Equipa especializada com anos de experiência em paisagismo de alta qualidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Serviços -->
+        <section class="sec-servicos" id="servicos">
+            <div class="container">
+                <div class="section-header">
+                    <span class="tagline">O Que Fazemos</span>
+                    <h2>Serviços de Elite</h2>
+                    <p>Soluções integradas de paisagismo para espaços residenciais e comerciais.</p>
+                </div>
+                <div class="grid-servicos">
+                    <article class="servico-card">
+                        <div class="servico-img">
+                            <img src="Imagens/construcao.jpg" alt="Jardins Verticais">
+                        </div>
+                        <div class="servico-content">
+                            <h3>Jardins Verticais</h3>
+                            <p> Sistemas modulares de paredes verdes que transformam qualquer espaço interior ou exterior num oásis vertical.</p>
+                            <span class="servico-tag">Mais Popular</span>
+                        </div>
+                    </article>
+                    <article class="servico-card">
+                        <div class="servico-img">
+                            <img src="Imagens/rockgarden.jpg" alt="Terrários">
+                        </div>
+                        <div class="servico-content">
+                            <h3>Terrários & Art vegetal</h3>
+                            <p>Criações artísticas em vidro com musgos, suculentas e plantas exóticas. Decoração única para escritórios e lares.</p>
+                        </div>
+                    </article>
+                    <article class="servico-card">
+                        <div class="servico-img">
+                            <img src="Imagens/rega.jpg" alt="Sistemas de Rega">
+                        </div>
+                        <div class="servico-content">
+                            <h3>Sistemas Inteligentes</h3>
+                            <p>Instalação de rega automática e inteligente que otimiza o consumo de água enquanto mantém o verde exuberante.</p>
+                        </div>
+                    </article>
+                    <article class="servico-card">
+                        <div class="servico-img">
+                            <img src="Imagens/relva.jpg" alt="Relvados">
+                        </div>
+                        <div class="servico-content">
+                            <h3>Relvados Premium</h3>
+                            <p>Instalação e manutenção de relvados de сем Sleeper e zonas ajardinadas de baixa manutenção.</p>
+                        </div>
+                    </article>
+                    <article class="servico-card">
+                        <div class="servico-img">
+                            <img src="Imagens/poda.jpg" alt="Poda Artística">
+                        </div>
+                        <div class="servico-content">
+                            <h3>Poda & Topiaria</h3>
+                            <p>Poda artística e topiaria para criar formas escultóricas que elevam o design do seu jardim.</p>
+                        </div>
+                    </article>
+                    <article class="servico-card">
+                        <div class="servico-img">
+                            <img src="Imagens/canteiro.jpg" alt="Iluminação Paisagista">
+                        </div>
+                        <div class="servico-content">
+                            <h3>Iluminação & Acessórios</h3>
+                            <p> Projeto de iluminação cénica e elementos decorativos que destacam a beleza do seu espaço verde à noite.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio / Trabalhos Realizados -->
+        <section class="sec-portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <span class="tagline">Projetos Recentes</span>
+                    <h2>O Nosso Trabalho</h2>
+                    <p>Alguns dos projetos que realizzámos com dedicação e excelência.</p>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="Imagens/construcao.jpg" alt="Projeto Residência - Jardim Vertical">
+                        <div class="portfolio-overlay">
+                            <h4>Jardim Vertical Moderno</h4>
+                            <p>Residência privada LISBOA</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="Imagens/rockgarden.jpg" alt="Terrário Corporativo">
+                        <div class="portfolio-overlay">
+                            <h4>Terrário Corporativo</h4>
+                            <p>Escritório CENTRO LISBOA</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="Imagens/relva.jpg" alt="Redeação de Jardim">
+                        <div class="portfolio-overlay">
+                            <h4>Redesenho Completo</h4>
+                            <p>Vila particular CARCAVELOS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-cta">
+                    <a href="https://instagram.com" target="_blank" class="btn-insta"><i class="fab fa-instagram"></i> Ver Mais no Instagram</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testemunhos -->
+        <section class="sec-testemunhos" id="testemunhos">
+            <div class="container">
+                <div class="section-header">
+                    <span class="tagline">O Que Dizem os Clientes</span>
+                    <h2>Experiências Reais</h2>
+                </div>
+                <div class="testemunhos-grid">
+                    <article class="testemunho-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>"O jardim vertical que criaram no nosso escritório mudou completamente o ambiente de trabalho. Todos os colegas adoram e o produtividade aumentou!"</blockquote>
+                        <div class="autor">
+                            <img src="Imagens/AnaMalhoa.jpg" alt="Cliente">
+                            <div class="autor-info">
+                                <strong>Miguel Santos</strong>
+                                <span>Diretor Geral, Empresa TECH</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="testemunho-card featured">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>"Serviço impeccável. O террарио que encomendei é uma obra de arte. Recomendo a qualquer pessoa que procure excelência."</blockquote>
+                        <div class="autor">
+                            <img src="Imagens/PalmiraSilva.jpg" alt="Cliente">
+                            <div class="autor-info">
+                                <strong>Cláudia Ferreira</strong>
+                                <span>Arquiteta de Interiores</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="testemunho-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>"Equipa muito profissional e criativa. Transformaram o nosso pátio num espaços muito agradável. O orçamento foi rápido e transparente."</blockquote>
+                        <div class="autor">
+                            <img src="Imagens/PauloFutre.jpg" alt="Cliente">
+                            <div class="autor-info">
+                                <strong>Pedro Almeida</strong>
+                                <span>Empresário</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="sec-faq" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="tagline">Perguntas Frequentes</span>
+                    <h2>O Que Precisa de Saber</h2>
+                </div>
+                <div class="faq-grid">
+                    <details class="faq-item">
+                        <summary> quanto tempo demora um projeto?<i class="fas fa-chevron-down"></i></summary>
+                        <p>O tempo varia conforme a complexidade. Um jardín simples pode estar pronto em 2-3 dias, enquanto projetos mais elaborados podem necessitar de 2-4 semanas. Fornecemos um cronograma detalhado após a visita técnica.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary> Quais são as formas de pagamento?<i class="fas fa-chevron-down"></i></summary>
+                        <p>Aceitamos transferência bancária, MB Way e pagamento em prestações para projetos de maior valor. O pagamento pode ser dividido em fases: 50% no início e 50% na conclusão.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary> Fazem manutenção pós-projeto?<i class="fas fa-chevron-down"></i></summary>
+                        <p>Sim! Oferecemos contratos de manutenção adaptados às necessidades do seu espaço verde, incluindoadubação, poda, controlo de pragas e substituição de plantas.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary> Trabajam em todo o país?<i class="fas fa-chevron-down"></i></summary>
+                        <p>Estamos sediados na Grande Lisboa e atuamos em todo o território nacional, com logística própria para projetos de maior dimensão fora da capital.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lead Magnet / Newsletter -->
+        <section class="sec-newsletter" id="orcamento">
+            <div class="container">
+                <div class="newsletter-box">
+                    <div class="newsletter-content">
+                        <span class="tagline">Guia Grátis</span>
+                        <h2>10 Plantas Imperdíveis para Espaços Pequenos</h2>
+                        <p>Descargue o nosso guia completo com as melhores plantas para apartamentos e escritórios. Selecionadas pela nossa equipa de especialistas.</p>
+                        <form class="newsletter-form" onsubmit="baixarGuia(event)">
+                            <input type="email" placeholder="O seu email..." required>
+                            <button type="submit" class="btn-primary">Receber Guia Grátis</button>
+                        </form>
+                        <span class="newsletter-note"><i class="fas fa-lock"></i> Não partilhamos o seu email. Cancelamento a qualquer momento.</span>
+                    </div>
+                    <div class="newsletter-img">
+                        <img src="Imagens/rockgarden.jpg" alt="Plantas para espaços pequenos">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="sec-contacto" id="contacto">
+            <div class="container">
+                <div class="contacto-grid">
+                    <div class="contacto-info">
+                        <span class="tagline">Vamos Criar Juntos</span>
+                        <h2>Agende a Sua Consulta</h2>
+                        <p>Estamos prontos para transformar o seu espaço. Conte-nos a sua visão e juntos criaremos algo extraordinário.</p>
+                        <div class="contacto-canais">
+                            <a href="tel:+351912345678" class="canal-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <strong>Chamada</strong>
+                                    <span>+351 91 234 56 78</span>
+                                </div>
+                            </a>
+                            <a href="mailto:info@ojardineirodobairro.pt" class="canal-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <span>info@ojardineirodobairro.pt</span>
+                                </div>
+                            </a>
+                            <a href="https://wa.me/351912345678" class="canal-item">
+                                <i class="fab fa-whatsapp"></i>
+                                <div>
+                                    <strong>WhatsApp</strong>
+                                    <span>Mensagem instantânea</span>
+                                </div>
+                            </a>
+                            <div class="canal-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Localização</strong>
+                                    <span>Lisboa, Portugal</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacto-form">
+                        <form id="formContact" onsubmit="enviarMensagem(event)">
+                            <h3>Envie-nos uma mensagem</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" id="nome" name="nome" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefone">Telefone</label>
+                                    <input type="tel" id="telefone" name="telefone">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="tipo-projeto">Tipo de Projeto</label>
+                                <select id="tipo-projeto" name="tipo-projeto">
+                                    <option value="">Selecione uma opção</option>
+                                    <option value="vertical">Jardim Vertical</option>
+                                    <option value="terrario">Terrário / Art Vegetal</option>
+                                    <option value="manutencao">Manutenção</option>
+                                    <option value="novo">Novo Jardim</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos sobre o seu projeto..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                            <div id="formFeedback" class="form-feedback"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <img src="Imagens/logo.png" alt="JB Logo">
+                    <p>Criamos espaços verdes que inspiram. Paisagismo de excelência para quem procura o melhor.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Jardins Verticais</a></li>
+                        <li><a href="#servicos">Terrários</a></li>
+                        <li><a href="#servicos">Sistemas de Rega</a></li>
+                        <li><a href="#servicos">Manutenção</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Horário</h4>
+                    <ul class="horario">
+                        <li>Segunda a Sexta: 9h-19h</li>
+                        <li>Sábado: 9h-13h</li>
+                        <li>Domingo: Encerrado</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 O Jardineiro do Bairro. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
