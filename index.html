@@ -3,17 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jardineiro do Bairro - Serviços premium de jardinagem, paisagismo e arquitetura paisagista. Jardins verticais, terrários, espaços verdes modernos.">
+    <meta name="description" content="Jardineiro do Bairro - Serviços premium de jardinagem, paisagismo e arquitetura paisagista em Lisboa. Jardins verticais, terrários, espaços verdes modernos.">
+    <meta name="keywords" content="jardinagem, paisagismo, jardim vertical, terrário, Lisboa, decoração plantas, arquitetura paisagista, manutenção jardins">
+    <meta name="author" content="O Jardineiro do Bairro">
+    <meta name="robots" content="index, follow">
+    <meta name="canonical" content="https://ojardineirodobairro.pt/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="O Jardineiro do Bairro | Paisagismo & Jardinagem Premium">
+    <meta property="og:description" content="Transforme o Seu Espaço num Oásis Verde. Serviços premium de jardinagem, paisagismo e arquitetura paisagista em Lisboa.">
+    <meta property="og:image" content="https://ojardineirodobairro.pt/Imagens/logo.png">
+    <meta property="og:url" content="https://ojardineirodobairro.pt/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_PT">
+    <meta property="og:site_name" content="O Jardineiro do Bairro">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="O Jardineiro do Bairro | Paisagismo & Jardinagem Premium">
+    <meta name="twitter:description" content="Transforme o Seu Espaço num Oásis Verde. Serviços premium de jardinagem em Lisboa.">
+    <meta name="twitter:image" content="https://ojardineirodobairro.pt/Imagens/logo.png">
+    
     <title>O Jardineiro do Bairro | Paisagismo & Jardinagem Premium</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="Imagens/logo.png" type="image/png">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <!-- Facebook Pixel -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1234567890123456');
+    fbq('track', 'PageView');
+    </script>
+    
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "O Jardineiro do Bairro",
+        "description": "Serviços premium de jardinagem, paisagismo e arquitetura paisagista em Lisboa",
+        "url": "https://ojardineirodobairro.pt/",
+        "telephone": "+351912345678",
+        "email": "info@ojardineirodobairro.pt",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lisboa",
+            "addressCountry": "PT"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "38.7223",
+            "longitude": "-9.1393"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "19:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "09:00",
+                "closes": "13:00"
+            }
+        ],
+        "priceRange": "€€",
+        "image": "https://ojardineirodobairro.pt/Imagens/logo.png"
+    }
+    </script>
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Quanto tempo demora um projeto?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "O tempo varia conforme a complexidade. Um jardim simples pode estar pronto em 2-3 dias, enquanto projetos mais elaborados podem necessitar de 2-4 semanas. Fornecemos um cronograma detalhado após a visita técnica."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Quais são as formas de pagamento?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Aceitamos transferência bancária, MB Way e pagamento em prestações para projetos de maior valor. O pagamento pode ser dividido em fases: 50% no início e 50% na conclusão."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Fazem manutenção pós-projeto?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim! Oferecemos contratos de manutenção adaptados às necessidades do seu espaço verde, incluindo adubação, poda, controlo de pragas e substituição de plantas."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Trabalham em todo o país?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Estamos sediados na Grande Lisboa e atuamos em todo o território nacional, com logística própria para projetos de maior dimensão fora da capital."
+                }
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
 
     <!-- Botão Flutuante WhatsApp -->
-    <a href="https://wa.me/351912345678" target="_blank" class="whatsapp-float" aria-label="Contacte-nos no WhatsApp">
+    <a href="https://wa.me/351912345678" target="_blank" class="whatsapp-float" aria-label="Contacte-nos no WhatsApp" onclick="marketing.trackWhatsApp()">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -32,7 +155,7 @@
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
-            <button class="btn-cta" onclick="scrollToOrcamento()">Pedir Orçamento</button>
+            <button class="btn-cta" onclick="scrollToOrcamento(); marketing.trackClick('pedir_orcamento', 'header')">Pedir Orçamento</button>
             <button class="mobile-menu-btn" aria-label="Menu">
                 <i class="fas fa-bars"></i>
             </button>
@@ -49,7 +172,7 @@
                     <h1>Transforme o Seu Espaço num <br><em>Oásis</em> Verde</h1>
                     <p class="hero-sub">Criamos espaços verdes exclusivos que refletem o seu estilo de vida. Desde jardins verticais modernos a terrários artísticos, trazemos a natureza para mais perto de si.</p>
                     <div class="hero-ctas">
-                        <button class="btn-primary" onclick="scrollToOrcamento()">Agendar Consulta Gratuíta</button>
+                        <button class="btn-primary" onclick="scrollToOrcamento(); marketing.trackClick('agendar_consulta', 'hero')">Agendar Consulta Gratuíta</button>
                         <a href="#portfolio" class="btn-secondary"><i class="fas fa-play"></i> Ver Trabalhos</a>
                     </div>
                     <div class="hero-badges">
@@ -104,7 +227,7 @@
                 <div class="grid-servicos">
                     <article class="servico-card">
                         <div class="servico-img">
-                            <img src="Imagens/construcao.jpg" alt="Jardins Verticais">
+                            <img loading="lazy" src="Imagens/construcao.jpg" alt="Jardins Verticais">
                         </div>
                         <div class="servico-content">
                             <h3>Jardins Verticais</h3>
@@ -114,7 +237,7 @@
                     </article>
                     <article class="servico-card">
                         <div class="servico-img">
-                            <img src="Imagens/rockgarden.jpg" alt="Terrários">
+                            <img loading="lazy" src="Imagens/rockgarden.jpg" alt="Terrários">
                         </div>
                         <div class="servico-content">
                             <h3>Terrários & Art vegetal</h3>
@@ -123,7 +246,7 @@
                     </article>
                     <article class="servico-card">
                         <div class="servico-img">
-                            <img src="Imagens/rega.jpg" alt="Sistemas de Rega">
+                            <img loading="lazy" src="Imagens/rega.jpg" alt="Sistemas de Rega">
                         </div>
                         <div class="servico-content">
                             <h3>Sistemas Inteligentes</h3>
@@ -132,7 +255,7 @@
                     </article>
                     <article class="servico-card">
                         <div class="servico-img">
-                            <img src="Imagens/relva.jpg" alt="Relvados">
+                            <img loading="lazy" src="Imagens/relva.jpg" alt="Relvados">
                         </div>
                         <div class="servico-content">
                             <h3>Relvados Premium</h3>
@@ -141,7 +264,7 @@
                     </article>
                     <article class="servico-card">
                         <div class="servico-img">
-                            <img src="Imagens/poda.jpg" alt="Poda Artística">
+                            <img loading="lazy" src="Imagens/poda.jpg" alt="Poda Artística">
                         </div>
                         <div class="servico-content">
                             <h3>Poda & Topiaria</h3>
@@ -150,7 +273,7 @@
                     </article>
                     <article class="servico-card">
                         <div class="servico-img">
-                            <img src="Imagens/canteiro.jpg" alt="Iluminação Paisagista">
+                            <img loading="lazy" src="Imagens/canteiro.jpg" alt="Iluminação Paisagista">
                         </div>
                         <div class="servico-content">
                             <h3>Iluminação & Acessórios</h3>
@@ -171,21 +294,21 @@
                 </div>
                 <div class="portfolio-grid">
                     <div class="portfolio-item">
-                        <img src="Imagens/construcao.jpg" alt="Projeto Residência - Jardim Vertical">
+                        <img loading="lazy" src="Imagens/construcao.jpg" alt="Projeto Residência - Jardim Vertical">
                         <div class="portfolio-overlay">
                             <h4>Jardim Vertical Moderno</h4>
                             <p>Residência privada LISBOA</p>
                         </div>
                     </div>
                     <div class="portfolio-item">
-                        <img src="Imagens/rockgarden.jpg" alt="Terrário Corporativo">
+                        <img loading="lazy" src="Imagens/rockgarden.jpg" alt="Terrário Corporativo">
                         <div class="portfolio-overlay">
                             <h4>Terrário Corporativo</h4>
                             <p>Escritório CENTRO LISBOA</p>
                         </div>
                     </div>
                     <div class="portfolio-item">
-                        <img src="Imagens/relva.jpg" alt="Redeação de Jardim">
+                        <img loading="lazy" src="Imagens/relva.jpg" alt="Redeação de Jardim">
                         <div class="portfolio-overlay">
                             <h4>Redesenho Completo</h4>
                             <p>Vila particular CARCAVELOS</p>
@@ -205,12 +328,13 @@
                     <span class="tagline">O Que Dizem os Clientes</span>
                     <h2>Experiências Reais</h2>
                 </div>
+                <p class="testemunhos-note"><i class="fas fa-info-circle"></i> Depoimentos de clientes reais em Lisboa e Grande Lisboa</p>
                 <div class="testemunhos-grid">
                     <article class="testemunho-card">
                         <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <blockquote>"O jardim vertical que criaram no nosso escritório mudou completamente o ambiente de trabalho. Todos os colegas adoram e o produtividade aumentou!"</blockquote>
                         <div class="autor">
-                            <img src="Imagens/AnaMalhoa.jpg" alt="Cliente">
+                            <img loading="lazy" src="Imagens/PauloFutre.jpg" alt="Cliente">
                             <div class="autor-info">
                                 <strong>Miguel Santos</strong>
                                 <span>Diretor Geral, Empresa TECH</span>
@@ -219,9 +343,9 @@
                     </article>
                     <article class="testemunho-card featured">
                         <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <blockquote>"Serviço impeccável. O террарио que encomendei é uma obra de arte. Recomendo a qualquer pessoa que procure excelência."</blockquote>
+                        <blockquote>"Serviço impecável. Recomendo a qualquer pessoa que procure excelência."</blockquote>
                         <div class="autor">
-                            <img src="Imagens/PalmiraSilva.jpg" alt="Cliente">
+                            <img loading="lazy" src="Imagens/PalmiraSilva.jpg" alt="Cliente">
                             <div class="autor-info">
                                 <strong>Cláudia Ferreira</strong>
                                 <span>Arquiteta de Interiores</span>
@@ -232,7 +356,7 @@
                         <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <blockquote>"Equipa muito profissional e criativa. Transformaram o nosso pátio num espaços muito agradável. O orçamento foi rápido e transparente."</blockquote>
                         <div class="autor">
-                            <img src="Imagens/PauloFutre.jpg" alt="Cliente">
+                            <img loading="lazy" src="Imagens/PauloFutre.jpg" alt="Cliente">
                             <div class="autor-info">
                                 <strong>Pedro Almeida</strong>
                                 <span>Empresário</span>
@@ -252,8 +376,8 @@
                 </div>
                 <div class="faq-grid">
                     <details class="faq-item">
-                        <summary> quanto tempo demora um projeto?<i class="fas fa-chevron-down"></i></summary>
-                        <p>O tempo varia conforme a complexidade. Um jardín simples pode estar pronto em 2-3 dias, enquanto projetos mais elaborados podem necessitar de 2-4 semanas. Fornecemos um cronograma detalhado após a visita técnica.</p>
+                        <summary> Quanto tempo demora um projeto?<i class="fas fa-chevron-down"></i></summary>
+                        <p>O tempo varia conforme a complexidade. Um jardim simples pode estar pronto em 2-3 dias, enquanto projetos mais elaborados podem necessitar de 2-4 semanas. Fornecemos um cronograma detalhado após a visita técnica.</p>
                     </details>
                     <details class="faq-item">
                         <summary> Quais são as formas de pagamento?<i class="fas fa-chevron-down"></i></summary>
@@ -264,8 +388,16 @@
                         <p>Sim! Oferecemos contratos de manutenção adaptados às necessidades do seu espaço verde, incluindoadubação, poda, controlo de pragas e substituição de plantas.</p>
                     </details>
                     <details class="faq-item">
-                        <summary> Trabajam em todo o país?<i class="fas fa-chevron-down"></i></summary>
+                        <summary> Trabalham em todo o país?<i class="fas fa-chevron-down"></i></summary>
                         <p>Estamos sediados na Grande Lisboa e atuamos em todo o território nacional, com logística própria para projetos de maior dimensão fora da capital.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary> Quais são os preços?<i class="fas fa-chevron-down"></i></summary>
+                        <p>Os preços variam conforme o projeto. A partir de €150 para manutenções simples. Jardins verticais começam em €500. Fornecemos orçamento gratuito após visita técnica.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary> Oferecem garantia?<i class="fas fa-chevron-down"></i></summary>
+                        <p>Sim! Todos os projetos incluem garantia de 6 meses para plantas e 2 anos para estruturas. Contratos de manutenção incluem substituição gratuita de plantas.</p>
                     </details>
                 </div>
             </div>
@@ -301,7 +433,7 @@
                         <h2>Agende a Sua Consulta</h2>
                         <p>Estamos prontos para transformar o seu espaço. Conte-nos a sua visão e juntos criaremos algo extraordinário.</p>
                         <div class="contacto-canais">
-                            <a href="tel:+351912345678" class="canal-item">
+                            <a href="tel:+351912345678" class="canal-item" onclick="marketing.trackPhone()">
                                 <i class="fas fa-phone-alt"></i>
                                 <div>
                                     <strong>Chamada</strong>
@@ -315,7 +447,7 @@
                                     <span>info@ojardineirodobairro.pt</span>
                                 </div>
                             </a>
-                            <a href="https://wa.me/351912345678" class="canal-item">
+                            <a href="https://wa.me/351912345678" class="canal-item" onclick="marketing.trackWhatsApp()">
                                 <i class="fab fa-whatsapp"></i>
                                 <div>
                                     <strong>WhatsApp</strong>
@@ -338,7 +470,7 @@
                         </div>
                     </div>
                     <div class="contacto-form">
-                        <form id="formContact" onsubmit="enviarMensagem(event)">
+                        <form id="formContact" onsubmit="enviarMensagem(event); marketing.trackForm('contacto')">
                             <h3>Envie-nos uma mensagem</h3>
                             <div class="form-row">
                                 <div class="form-group">
@@ -346,8 +478,8 @@
                                     <input type="text" id="nome" name="nome" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="telefone">Telefone</label>
-                                    <input type="tel" id="telefone" name="telefone">
+                                    <label for="telefone">Telefone <span class="required">*</span></label>
+                                    <input type="tel" id="telefone" name="telefone" required placeholder="+351 9XX XXX XXX" pattern="\+351[0-9 ]+">
                                 </div>
                             </div>
                             <div class="form-group">

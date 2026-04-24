@@ -582,6 +582,22 @@ button, input, select, textarea {
     gap: 28px;
 }
 
+.testemunhos-note {
+    text-align: center;
+    font-size: 14px;
+    color: var(--gray);
+    margin-bottom: 32px;
+    padding: 12px 20px;
+    background: rgba(45, 90, 61, 0.05);
+    border-radius: var(--radius-md);
+    display: inline-block;
+}
+
+.testemunhos-note i {
+    color: var(--primary);
+    margin-right: 8px;
+}
+
 .testemunho-card {
     background: var(--light);
     padding: 36px;

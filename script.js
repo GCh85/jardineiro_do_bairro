@@ -1,7 +1,54 @@
 // ========================================
 // O JARDINEIRO DO BAIRRO - SCRIPT
-// Versão Melhorada
+// Versão Melhorada com Analytics
 // ========================================
+
+// ========================================
+// Marketing Analytics Utilities
+// ========================================
+const marketing = {
+    // Track event to GA4, Facebook Pixel
+    trackEvent: function(eventName, params) {
+        // GA4
+        if (typeof gtag !== 'undefined') {
+            gtag('event', eventName, params);
+        }
+        // Facebook Pixel
+        if (typeof fbq !== 'undefined') {
+            fbq('track', eventName, params);
+        }
+        console.log('[ Analytics ]:', eventName, params);
+    },
+    
+    // Track CTA clicks
+    trackClick: function(ctaName, ctaLocation) {
+        this.trackEvent('cta_click', {
+            cta_name: ctaName,
+            cta_location: ctaLocation
+        });
+    },
+    
+    // Track form submissions
+    trackForm: function(formName) {
+        this.trackEvent('generate_lead', {
+            form_name: formName
+        });
+    },
+    
+    // Track phone clicks
+    trackPhone: function() {
+        this.trackEvent('phone_click', {
+            phone_number: '+351912345678'
+        });
+    },
+    
+    // Track WhatsApp clicks
+    trackWhatsApp: function() {
+        this.trackEvent('whatsapp_click', {
+            platform: 'whatsapp'
+        });
+    }
+};
 
 document.addEventListener('DOMContentLoaded', function() {
     
@@ -158,6 +205,14 @@ document.querySelectorAll('form input, form select, form textarea').forEach(inpu
         if (this.type === 'email' && this.value) {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(this.value)) {
+                this.style.borderColor = '#e74c3c';
+            }
+        }
+        
+        // Phone validation (Portuguese format)
+        if (this.type === 'tel' && this.value) {
+            const phoneRegex = /^\+351[0-9 ]+$/;
+            if (!phoneRegex.test(this.value)) {
                 this.style.borderColor = '#e74c3c';
             }
         }
