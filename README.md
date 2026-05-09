@@ -1,5 +1,7 @@
-# 🌿 O Jardineiro do Bairro
+# O Jardineiro do Bairro
 ## Landing Page Premium de Jardinagem & Paisagismo
+
+![Mockup de Apresentação](docs/screenshots/hero_mockup.jpg)
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5)](https://developer.mozilla.org/)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3)](https://www.w3.org/Style/CSS/)
@@ -14,22 +16,22 @@
 
 ---
 
-## 📋 Índice
+## Índice
 
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Funcionalidades](#-funcionalidades)
-- [Stack Tecnológico](#-stack-tecnológico)
-- [Melhorias Implementadas](#-melhorias-implementadas)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Analytics & SEO](#-analytics--seo)
-- [Setup Local](#-setup-local)
-- [Desenvolvimento](#-desenvolvimento)
-- [Contribuição](#-contribuição)
-- [Licença](#-licença)
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Funcionalidades](#funcionalidades)
+- [Stack Tecnológico](#stack-tecnológico)
+- [Melhorias Implementadas](#melhorias-implementadas)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Analytics & SEO](#analytics--seo)
+- [Setup Local](#setup-local)
+- [Desenvolvimento](#desenvolvimento)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
 ---
 
-## 🌿 Sobre o Projeto
+## Sobre o Projeto
 
 Landing page premium para uma empresa de jardinagem e paisagismo em Lisboa. O objetivo foi criar uma experiência web moderna e profissional, aplicando técnicas de Front-End e UX/UI com foco em conversão:
 
@@ -50,7 +52,7 @@ Landing page premium para uma empresa de jardinagem e paisagismo em Lisboa. O ob
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 ### UI/UX
 
@@ -80,7 +82,7 @@ Landing page premium para uma empresa de jardinagem e paisagismo em Lisboa. O ob
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 | Tecnologia | Versão | Finalidade |
 |------------|--------|------------|
@@ -95,7 +97,7 @@ Landing page premium para uma empresa de jardinagem e paisagismo em Lisboa. O ob
 
 ---
 
-## 🚀 Melhorias Implementadas
+## Melhorias Implementadas
 
 ### ✅ SEO & Dados Estruturados
 
@@ -135,7 +137,7 @@ Landing page premium para uma empresa de jardinagem e paisagismo em Lisboa. O ob
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Jardineiro do Bairro/
@@ -148,7 +150,7 @@ Jardineiro do Bairro/
 
 ---
 
-## 📊 Analytics & SEO
+## Analytics & SEO
 
 ### Google Analytics 4
 
@@ -189,7 +191,7 @@ Jardineiro do Bairro/
 
 ---
 
-## 🚀 Setup Local
+## Setup Local
 
 ### Pré-requisitos
 
@@ -226,7 +228,7 @@ fbq('init', 'FACEBOOK-PIXEL-ID');
 
 ---
 
-## 💻 Desenvolvimento
+## Desenvolvimento
 
 ### Regras de Código
 
@@ -247,7 +249,7 @@ fbq('init', 'FACEBOOK-PIXEL-ID');
 
 ---
 
-## 🤝 Contribuição
+## Contribuição
 
 1. Fork o repositório
 2. Criar branch (`git checkout -b feature/nova-funcionalidade`)
@@ -264,7 +266,7 @@ fbq('init', 'FACEBOOK-PIXEL-ID');
 
 ---
 
-## 📄 Licença
+## Licença
 
 Projeto académico desenvolvido para **ATEC TPSI-CAS-0725**
 — Curso de Especialização Tecnológica em Técnicas e Programação de Sistemas de Informação.
